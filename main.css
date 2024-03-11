@@ -95,6 +95,10 @@ footer a:last-of-type {
     line-height: 70px;
   }
 
+  p {
+    padding-top: 50px;
+  }
+
   footer a {
     font-size: 16px;
     font-weight: 450;
