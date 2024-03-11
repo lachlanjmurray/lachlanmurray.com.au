@@ -85,7 +85,7 @@ footer a:last-of-type {
 @media screen and (max-width: 600px) {
   body {
     margin: 25px;
-    min-height: calc(100% - 50px);
+    min-height: calc(100% - 25px);
   }
 
   h1 {
