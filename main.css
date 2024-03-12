@@ -15,8 +15,8 @@ html {
 }
 
 body {
-  font-family: "Inter", sans-serif;
   animation: fadeIn 2.5s;
+  font-family: "Inter", sans-serif;
   margin: 50px;
   min-height: calc(100% - 50px);
   display: flex;
@@ -58,7 +58,8 @@ p {
 
 footer {
   margin-top: auto;
-  margin-bottom: 50px;;
+  padding-top: 50px;
+  margin-bottom: 50px;
 }
 
 footer a {
