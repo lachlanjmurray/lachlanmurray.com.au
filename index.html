@@ -11,6 +11,11 @@
     <title>Lachlan Murray</title>
   </head>
   <body>
+    <script>
+      function toggleTheme() {
+        document.body.classList.toggle('dark-mode');
+      }
+    </script>
     <header>
       <h1><a href="/">Lachlan Murray</a></h1>
     </header>
@@ -20,8 +25,8 @@
       <p>Melbourne, Australia<br>Naarm</p>
     </main>
     <footer>
-      <a href="mailto:hey@lachlanmurray.com.au">hey@lachlanmurray.com.au</a>
       <a href="https://www.linkedin.com/in/lachlan-murray" target="_blank"><img src=/images/linkedin.svg alt="LinkedIn logo"></a>
+      <a onclick="toggleTheme()">◑</a>
     </footer>
   </body>
 </html>
