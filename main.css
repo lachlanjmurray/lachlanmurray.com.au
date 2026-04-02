@@ -7,7 +7,7 @@
 body {
   color: #000000;
   background-color: #ffffff;
-  animation: fadeIn 2.5s;
+  animation: fadeIn 1.5s cubic-bezier(0.25, 0.5, 0.5, 1.0);
   font-family: "Inter", sans-serif;
   margin: 50px;
   min-height: calc(100% - 50px);
@@ -89,11 +89,9 @@ footer a:last-of-type {
 
 @keyframes fadeIn {
   from {
+    transform: translateY(-10px);
+    filter: blur(10px);
     opacity: 0;
-  }
-
-  to {
-    opacity: 1;
   }
 }
 
